@@ -1,0 +1,16 @@
+{
+    "name": "yuhari/config",
+    "description": "php config utils, which provides environment chosen,node extended ..",
+    "authors": [
+        {
+            "name": "yuhari",
+            "email": "yuhari@126.com"
+        }
+    ],
+	"autoload" : {
+        "psr-4":{
+           "config\\" : "src/"
+        }
+	},
+    "require": {}
+}
