@@ -3,6 +3,12 @@
 
 ##### email: <yuhari@126.com>
 ----
+###install:
+1. **git** 
+	<pre>git clone https://github.com/yuhari/helper-config.git</pre>
+2. **composer**
+	<pre>composer require yuhari/config </pre>
+
 ### example usages:
     <?php
 	/**
