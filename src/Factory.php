@@ -149,7 +149,7 @@ class Factory implements IBase {
 			$fileName = self::getFile($name) ;
 			
 			if (!is_file($fileName)) {
-				throw new Exception(sprintf("The file named '%s' not exist." , $fileName)) ;
+				throw new \Exception(sprintf("The file named '%s' not exist." , $fileName)) ;
 			}
 			
 			$data = parse_ini_file($fileName, true) ;
